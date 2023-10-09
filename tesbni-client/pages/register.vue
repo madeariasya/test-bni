@@ -10,19 +10,19 @@
                 <div class="flex item-center my-5 justify-center">
                     <div class="relative ">
                         <input v-model="name" type="text" class="border-b border-gray-500 py-1 w-[400px] bg-neutral-800 focus:border-purple-600 focus:border-b-2 focus:outline-none transition-color peer">
-                        <label :class="{ 'text-xs':name ,'-top-[17px]':name ,'text-purple-600':name}" class="absolute pointer-events-none left-0 top-1 cursor-text peer-focus:text-xs peer-focus:-top-4 peer-focus:text-purple-600">Nama</label>
+                        <label :class="{ 'text-xs':name ,'-top-[16px]':name ,'text-purple-600':name}" class="absolute pointer-events-none left-0 top-1 cursor-text peer-focus:text-xs peer-focus:-top-4 peer-focus:text-purple-600">Nama</label>
                     </div>
                 </div>
                 <div class="flex item-center my-5 justify-center">
                     <div class="relative ">
                         <input v-model="numberPhone" type="text" class="border-b border-gray-500 py-1 w-[400px] bg-neutral-800 focus:border-purple-600 focus:border-b-2 focus:outline-none transition-color peer">
-                        <label :class="{ 'text-xs':numberPhone ,'-top-[17px]':numberPhone ,'text-purple-600':numberPhone}" class="absolute pointer-events-none left-0 top-1 cursor-text peer-focus:text-xs peer-focus:-top-4 peer-focus:text-purple-600">Nomor Handphone</label>
+                        <label :class="{ 'text-xs':numberPhone ,'-top-[16px]':numberPhone ,'text-purple-600':numberPhone}" class="absolute pointer-events-none left-0 top-1 cursor-text peer-focus:text-xs peer-focus:-top-4 peer-focus:text-purple-600">Nomor Handphone</label>
                     </div>
                 </div>
                 <div class="flex item-center my-5 justify-center">
                     <div class="relative ">
                         <input v-model="bornDate" type="text" class="border-b border-gray-500 py-1 w-[400px] bg-neutral-800 focus:border-purple-600 focus:border-b-2 focus:outline-none transition-color peer">
-                        <label :class="{ 'text-xs':bornDate ,'-top-[17px]':bornDate , 'text-purple-600':bornDate}" class="absolute pointer-events-none left-0 top-1 cursor-text peer-focus:text-xs peer-focus:-top-4 peer-focus:text-purple-600">Tanggal Lahir (dd-mm-yyyy)</label>
+                        <label :class="{ 'text-xs':bornDate ,'-top-[16px]':bornDate , 'text-purple-600':bornDate}" class="absolute pointer-events-none left-0 top-1 cursor-text peer-focus:text-xs peer-focus:-top-4 peer-focus:text-purple-600">Tanggal Lahir (dd-mm-yyyy)</label>
                     </div>
                 </div>
                 <div class="flex my-7 ">
