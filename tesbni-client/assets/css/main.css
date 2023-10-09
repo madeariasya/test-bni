@@ -1,0 +1,10 @@
+.text-gradient{
+    background: linear-gradient(90deg,#3f37c9,rgb(215, 24, 123));
+    background-clip: text;
+    color: transparent;
+}
+body{
+    height: 1050px;
+    background-color: rgb(23, 23, 23);
+    color: rgb(107 ,114, 128);
+}
